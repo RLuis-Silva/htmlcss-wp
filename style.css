@@ -48,3 +48,29 @@ header h1{
   display: inline-block;
   padding: 13px;
 }
+
+
+/* main style */
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .aside{
+  background-color: orange;
+  width: 25%;
+  float: left;
+}
+
+main .main_principale{
+  background-color: violet;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main .aside_dx_inBasso{
+  margin-top: 10px;
+}
