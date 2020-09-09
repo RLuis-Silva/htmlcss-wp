@@ -58,7 +58,6 @@ main::after{
 }
 
 main{
-  /* text-align: center; */
   padding: 0px;
   line-height: 2;
 }
@@ -71,6 +70,26 @@ main .aside{
   padding: 10px;
 }
 
+main aside::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .aside_sx .colonna_sx{
+  float: left;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+menu .aside_sx .colonna_dx{
+  float: left;
+}
+
+main .aside_sx .colonna_sx i{
+  /* ridimensiona grandezza icona */
+  font-size: 40px;
+  color: orange;
+}
 main .main_principale{
   background-color: white;
   width: 40%;
@@ -92,11 +111,12 @@ main .aside_dx_inBasso{
 .aside_sx ul{
   padding-left: 10px;
   text-align: left;
-  color: green;
+
 }
 
 .aside_sx ul li a{
   text-decoration: none;
+  color: green;
 }
 
 main h3{
