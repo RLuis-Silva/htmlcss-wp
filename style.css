@@ -1,3 +1,34 @@
+/* general style */
 body{
-  background-color: lightblue;
+  background-image:url(img/natural-pattern.png);
+}
+
+.contenitore{
+  padding: 30px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  width: 1000px;
+  margin: auto;
+}
+
+
+/* header style*/
+header .header{
+  height: 300px;
+  background-image: url(img/natural-header.jpg);
+  background-size: cover;
+  border: solid white 4px;
+}
+
+header img{
+  width: 500px;
+  /* come centrare il logo? con margin auto non funziona! */
+  /* margin-left: auto; */
+  margin-left: 250px;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  margin-top: 00px;
 }
