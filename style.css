@@ -62,6 +62,10 @@ main{
   line-height: 2;
 }
 
+main h3{
+  text-align: center;
+}
+
 main .aside{
   background-color: white;
   width: 25%;
@@ -90,19 +94,6 @@ main .aside_sx .colonna_sx i{
   font-size: 40px;
   color: orange;
 }
-main .main_principale{
-  background-color: white;
-  width: 40%;
-  float: left;
-  margin-left: 2%;
-  margin-right: 2%;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-main .aside_dx_inBasso{
-  margin-top: 10px;
-}
 
 .aside_sx ul li{
   list-style: none;
@@ -119,6 +110,48 @@ main .aside_dx_inBasso{
   color: green;
 }
 
-main h3{
+main .main_principale{
+  background-color: white;
+  width: 40%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main .aside_dx_inBasso{
+  margin-top: 10px;
+}
+
+/* footer */
+footer{
+  background-color: white;
   text-align: center;
+}
+
+footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer nav ul li {
+  float: left;
+  width: 33%;
+
+}
+
+footer nav ul{
+  list-style: none;
+}
+
+footer nav ul li i{
+  font-size: 40px;
+  padding: 10px;
+  color: grey;
+}
+
+footer p{
+  padding-top: 20px;
 }
