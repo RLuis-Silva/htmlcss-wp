@@ -32,3 +32,19 @@ header h1{
   text-align: center;
   margin-top: 00px;
 }
+
+.menu_nav{
+  background-color: gray;
+  color: white;
+}
+
+.menu_nav ul{
+  line-height: 40px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.menu_nav ul li{
+  display: inline-block;
+  padding: 13px;
+}
