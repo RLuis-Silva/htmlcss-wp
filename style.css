@@ -48,12 +48,22 @@ header h1{
 .menu_nav ul li{
   display: inline-block;
   padding: 13px;
+  /* background-color: orange; */
 }
 
 .menu_nav ul li a{
   text-decoration: none;
   color: white;
+  padding: 10px;
 }
+
+.menu_nav ul li a:hover{
+  background-color: orange;
+}
+/* .menu ul li a:hover{
+  background-color: orange;
+  color: green;
+} */
 
 /* main style */
 main::after{
