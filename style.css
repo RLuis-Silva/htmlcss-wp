@@ -167,6 +167,17 @@ footer nav ul li i{
   color: grey;
 }
 
+footer nav ul li a .fa-facebook:hover{
+  color: blue;
+}
+
+footer nav ul li a .fa-instagram:hover{
+  color: red;
+}
+footer nav ul li a .fa-github:hover{
+  color: black;
+}
+
 footer p{
   padding-top: 20px;
 }
